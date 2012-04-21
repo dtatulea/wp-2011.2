@@ -277,11 +277,6 @@ body {
 	margin-left: 102px;
 	width: auto;
 }
-/* Make sure the logo and search form don't collide */
-.one-column #branding #searchform {
-	right: 40px;
-	top: 4em;
-}
 /* Talking avatars take up too much room at this size */
 .one-column .commentlist > li.comment {
 	margin-left: 0;
@@ -620,17 +615,6 @@ a:hover {
 #access .current_page_ancestor > a {
 	font-weight: bold;
 }
-
-/* Search Form */
-#branding #searchform {
-	position: absolute;
-	top: 3.8em;
-	right: 7.6%;
-	text-align: right;
-}
-#branding #searchform div {
-	margin: 0;
-}
 #branding #s {
 	float: right;
 	-webkit-transition-duration: 400ms;
@@ -651,10 +635,6 @@ a:hover {
 #branding #searchsubmit {
 	display: none;
 }
-#branding .only-search #searchform {
-	top: 5px;
-	z-index: 1;
-}
 #branding .only-search #s {
 	background-color: #666;
 	border-color: #000;
@@ -666,11 +646,6 @@ a:hover {
 }
 #branding .only-search #s:focus {
 	background-color: #bbb;
-}
-#branding .with-image #searchform {
-	top: auto;
-	bottom: -27px;
-	max-width: 195px;
 }
 #branding .only-search + #access div {
 	padding-right: 205px;
@@ -1291,15 +1266,6 @@ blockquote.pull {
 
 /* =error404
 ----------------------------------------------- */
-
-.error404 #main #searchform {
-	background: #f9f9f9;
-	border: 1px solid #ddd;
-	border-width: 1px 0;
-	margin: 0 -8.9% 1.625em;
-	overflow: hidden;
-	padding: 1.625em 8.9%;
-}
 .error404 #main #s {
 	width: 95%;
 }
@@ -2407,10 +2373,6 @@ p.comment-form-comment {
 	#site-description {
 		margin-right: 0;
 	}
-	/* Make sure the logo and search form don't collide */
-	#branding #searchform {
-		top: 1.625em !important;
-	}
 	/* Floated content doesn't work well at this size */
 	.alignleft,
 	.alignright {
@@ -2521,9 +2483,6 @@ p.comment-form-comment {
 	}
 	#site-description {
 		font-size: 10pt;
-	}
-	#branding #searchform {
-		display: none;
 	}
 	#branding img {
 		display: none;
