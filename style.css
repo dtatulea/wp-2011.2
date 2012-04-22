@@ -546,7 +546,7 @@ a:hover {
 	padding-left: 0;
 }
 #access li {
-	float: left;
+	float: right;
 	position: relative;
 }
 #access a {
